@@ -20,3 +20,14 @@
 
 ![alt text](image.png)
 
+# Ethernet and IP protocol
+
+Physical and MAC -> 802.3
+LLC -> 802.2
+
+Min and Max of ethernet
+64 and max 1518 bytes
+
+Includes all bytes from destination MAC through Frame check sequence
+
+Any frame less than 64 bytes in length is considered a "collision fragment" or "runt frame" and automatically discarded by receiving station. Frames with more than 1500 bytes of data are consider "jumbo" or "baby giant frames"
