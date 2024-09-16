@@ -120,3 +120,44 @@ Hosts all reply to the spoofed ip address to overwhelm it
 Spoofing attack
 -> non-blind - threat attack can see traffic between host and target
 -> Blind
+
+# Attacking what we do
+
+Gratuitous ARP Basics: A legitimate gratuitous ARP is an ARP packet broadcast by a device to inform the network of its IP-to-MAC mapping, often used when a device comes online or its IP/MAC changes.
+
+Spoofing: In a spoofed gratuitous ARP attack, the attacker sends an ARP reply, falsely claiming that their MAC address is associated with the IP address of another device (like the router). Since ARP operates on a trust basis, devices in the network may update their ARP cache with the incorrect IP-to-MAC mapping.
+
+DNS open resolver
+- DNS cache poisioning
+-> Threat actors send spoofed, falsified Record resource (RR) information to DNS resolver to redirect users from legitmate sites to malicious sites
+
+DNS amplification and reflection
+
+DNS resource utilization attacks
+
+Fast flux 
+- Use this technique to hide their phising and malware delivery sites. The DNS IP addresses are continuously changed within minutes
+
+Double IP flux
+- Threat actors use this technique to rapidly change the hostname to IP address mappings and to also change the authoritative name server. Increasing the difficulty of identifying the source of attack
+
+Domain generation algo
+- Use this technique in malware to randomly generate domain names that can be then used as rendezvous points to their command and control servers
+
+DNS domain shadowing attacks
+- Threat actor gather domain account credentials in order to create multiple sub-domains which will be used during the attacks
+
+- These subdomains typically point to malicious servers without alerting the actual owner of the parent domain
+
+- DNS tunneling, place non-DNS traffic within DNS traffic. Types of DNS records such as TXT, MX, SRV, NULL, A or CNAME. For example a TXT record can store commands that are sent to the infected host bots as DNS replies
+
+- DORA (DHCP)
+
+HTTP 302 cushioning
+- 302 Found response to direct the user's web browser to a new location
+
+- Cisco umbrella to prevent users from navigating to web sites that are known to be malicious
+
+- more is pager for viewing large files one screen at a time. Only forward
+
+- less, is more advanced, allow to navigate both forward and backware

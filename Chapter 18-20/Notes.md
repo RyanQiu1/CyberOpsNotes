@@ -56,3 +56,75 @@ A comprehensive BYOD policy should accomplish the following:
 
 
 - This is a set of specifications for exchanging cyberthreat information between organizations.
+
+# Understanding Defense
+- Assets -> Something of value
+- Threat -> Any potential danger to an asset
+- Vulnerabilities -> Weakness in a system
+
+
+Security onion -> Defence in depth
+
+Security aRTICHOKE
+-> nO LONGER NEED PEEL, each "leaf" may revel sentitive data
+
+BYOD
+-> Password
+-> Manually control wirleess
+-> Keep updated
+-> Back up
+-> Enable find my evice
+-> Antivirus
+-> Mobile device management software (MDM)
+
+# Access Control
+
+Zero trust security
+-> Never trust always verify
+-> Workforce
+-> Workloads
+-> Workplace
+
+DAC -> Least restrictive, allow users to control their data as owners of the data
+MAC -> Applies the strictest access control and is used in military or mission critical applications
+
+Local AAA vs Server based AAA 
+
+Centralized AAA, active directory or LDAP
+-> Can use RADIUS and TACACS (CISCO propietary
+)
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+
+# Threat Intelligence
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+Cisco talos
+-> Largest commericial threat intelligience teams in the world. Comprised of world-class researchers, analysts and engineers
+-> Provides free software, services, resources, data and maintains the security incident detection rule sets
+
+Fireeye
+-> 3 pronged approach
+
+Automated Indicator sharing (AIS) offered by the US department of homeland security
+-> Real-time exchange of cyber threat indicator between the us fed and private sector
+-> Shared when threat is recongised
+
+Standards
+-> STIX
+-> TAXII
+-> CybOX
+
+![alt text](image-5.png)
+
+MISP (open source)
+Malware info sharing platform
+-> IOCS between people and machines using stix
