@@ -123,3 +123,82 @@ Cisco Firepower security management
 Cuckoo Sandbox, free malware analysis system sandbox
 
 ANY.RUN is an online tool that offers the ability to upload a malware sample for analysis like any online sandbox
+
+
+# Endpoint Vulnerability Asssessment
+- Network Profiling
+Statistical baseline information that can serve as a reference point for normal network and device performance
+
+- Elements of network profile
+1. Session duration
+2. Total throughput
+3. Critical asset address space
+4. Typical traffic type
+
+- Server Profiling
+Establish the accepted operating state of servers
+1. Listening ports
+2. Logged in users and accounts
+3. Service accounts
+4. Software environment
+
+Network Anomaly detection
+-> Big data analytics
+-> Anomaly detection
+
+Risk Analysis -> Impact of attack
+Vulnerability Assessment
+Penetration testing -> Hacking techniques to identify depth of attack
+
+CVSS
+- Risk assessment tool
+- Base Metric Group
+-> Characteristics of a vulnerability that are constant ovr time and across contexts
+-> Temporal Metric Group
+Measures the Characteristics of a vulnerability that may change over time, but not across user environments
+-> Environmental metric group
+Measures the aspects of a vulnerability that are rooted in a specific organisation environment
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+NVD (National Vulnerability database)
+- Utilize CVE identifiers and supplies addtional info on vulnerabilities such as cvss
+
+Vulnerability Management
+-> Discover
+-> Prioritized Assets
+-> Assess
+-> Report
+-> Remediate
+-> Verify
+
+Tools and Techniques for Asset management
+
+Mobile device management
+-> Cisco Meraki Systems Manager
+
+The Sarbanes–Oxley Act of 2002 is a United States federal law that mandates certain practices in financial record keeping and reporting for corporations. 
+
+Patch management 
+
+Agent-based
+-> Requires a software agent to be runnning on each host to be patched
+-> Agent reports whether vulnerable software is installed on the host
+
+
+Agentless Scanning
+-> Patch management servers scan the network for devices that require patching
+
+Passive network Monitoring
+-> Patching through the monitoring of traffic on the network
+
+Security Management Systems
+-> ISMS (Information security management system)
+-> ISO-27001
+
+NIST cyber sec framework
+-> Standards to integrate existing standards to better manage and reduce cyber sec risk
+IPDRR
+![alt text](image-5.png)
