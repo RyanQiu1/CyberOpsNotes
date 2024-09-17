@@ -59,3 +59,18 @@ In the detection and analysis phase of the NIST incident response process life c
 - GPL - source fire
 - VRT - Rules by cisco talos
 - ET - open source rules
+
+# Technologies and Protocols
+
+Syslog typically listen on UDP port 514
+- syslog-ng (next generation)
+
+NTP uses UDP port 123
+
+Threat actors have been known to use NTP systems to direct DDoS attacks through vulnerabilities in client or server software
+
+DNS
+
+Cisco Umbrella Passive DNS service can be used to block these requests
+
+![alt text](image-2.png)
