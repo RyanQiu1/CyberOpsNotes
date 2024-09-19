@@ -165,3 +165,122 @@ Deterministic Analysis (all known)
 
 Probabilistic Analysis
 -> Statistical techniques are used to determine the probability that a successful exploit will occur based on the likelihood that each step in the exploit will succeed.
+
+
+# Working with network security data
+- Elastic search - Open source for searching
+- Normalisation of data
+- Kibana - Graphical interface
+
+Data reduction
+-> Limiting volume of data
+using ELK
+
+Data normalisation
+-> Common schema
+
+Data archiving
+-> Sguil alert data is retained for 30 days. Set in securityonion.conf
+
+SGuil
+Look at C column for alert count
+
+# Sguil Queries
+Ability for cyber sec analyst to pivot to other info sources and tools
+
+Logs files are avaiable in elastic search
+
+Pivots to PRADS and SANPS
+
+Alerts that have been found to be false positives a can be expired
+
+OSSEC rules detect changes in host-based parameters, triggering an alert in sguil
+
+In kibana, zeek hunting can be used to display info on the file
+
+
+# Digital Forensics and Incident analysis and response
+
+NITS four phases
+
+Collection - Identification of potential sources of forensic data and acquisition, handling and storage of that data
+Examination - Assessing and extracting relevant info from collected data
+Analysis - Drawing conclusions from the data and correlation of data from multiple sources
+Reporting - Preparing and presenting information that resulted from the analysis phase
+
+
+Types of evidence
+-> Direct evidence
+-> Indirect evidence
+-> Best evidence - storage device
+-> Corroborating evidence - evidence supports an assertion that is developed from best evidence
+
+Evidence collection order
+-> Volatile to Non-volatile
+
+Chain of custody
+-> Involves collection, handling and secure storage of evidence
+
+Data integrity
+-> Timestamps
+-> Work on the copy
+-> Need hash the copy
+
+Preservation
+
+Attack attribution
+-> TTP
+-> Attacker follows a pattern
+
+MITRE ATT&CK Framework
+
+The Cyber Kill Chain
+
+![alt text](image-11.png)
+
+Delivery
+-> Adversary Tactics
+Launch malware at target
+1. Direct against web servers
+2. Indirect delivery through
+
+The diamond model of intrusion analysis
+-> Adversary - Parties responsible for intrusion
+-> Capability - Tool or technique used by the adversary to attack the victim
+-> Infrastructure - Network paths used by the adversary to establish and maintain command and control over their capabilities
+-> Victim - target of the attack
+
+Meta-features expand the model slightly to include the important elements: Timestamp, phase, result, direction, methodology and resources
+
+NIST Incident response plan
+
+NIST incident response life cycle
+1. Preparation - The members of the CSIRT are trained in how to respond to an incident
+2. Detection and Analysis - CSIRT quickly identifies, analyses and validates an incident
+
+Scoping
+Incident notification, inform appropiate stakeholders and outside parties
+
+3. Containment, Eradication and Recovery - CSIRT implements procedures to contain the threat, eradicate the impact on organisational assets and use backups to restore data and software
+
+Containment Strategy
+Evidence
+Attacker identification
+Eradication, recovery and remediation
+4. Post-Incident Activities
+- CSIRT documents how the incident was handled, recommends changes for future response and specifies how to avoid a reoccurence
+
+Lessons-based hardening
+-> Review the effectiveness of incident handling process
+-> Identify necessary hardening needed for existing security controls and practices
+
+Detection and Analysis
+- Attack vectors : Web emails
+
+
+Retention
+1. Prosecution
+All evidence should be retained until after all legal actions have been completed
+2. Data type
+An organisation may specify that specific types of data should be kept for a specific period of time
+3. Cost
